@@ -1,5 +1,5 @@
 # Device Localization Based on RSSI in LoRa Networks
-This study presents a machine learning-based device localization approach in an outdoor environment utilizing LoRa networks and RSSI.
+This study presents a machine learning (ML) based device localization approach in an outdoor environment in LoRa networks.
 
 *Dataset*
 
@@ -12,8 +12,9 @@ Three Low Power Wide Area Network (LPWAN) datasets, namely "Sigfox_dataset_antrw
 
 The data set, which contains around $130,000$ in LoRaWAN messages, was collected in Antwerp, Belgium. Each message (each sample) contains $77$ features, including $72$ RSSI values, RX Time, SF, HDOP, Latitude, and Longitude.
 
-# Machine Learning Based Localization in LoRa
-We present the benchmark ML models that we propose for the localization of outdoor devices in RSSI-based LoRaWAN networks: k-NN, CNN, SVR, ANN, and XGBoost.
+# Machine Learning-Based Localization in LoRa
+We present the benchmark ML models that we propose for the localization of outdoor devices in RSSI-based LoRaWAN networks: k-NN, CNN, SVR, ANN, XGBoost, and LightGBM.
 
 # Repository Description
 * *Data_Description.ipynb* file contains the data preprocessing stage without the normalization script.
+* *Enhancing_LoRa_based_Outdoor_Localization_Accuracy_Using_Machine_Learning.ipynb* file is a Supplementary Jupyter Notebook, and it presents the architecture of the ML models. 
