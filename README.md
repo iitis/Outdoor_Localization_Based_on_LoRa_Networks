@@ -8,7 +8,12 @@ You can access the data from the link below.
 
 https://zenodo.org/records/3342253
 
-The data set containing around $130,000$ LoRaWAN messages was collected in Antwerp, Belgium. In the dataset, there are 77 features in each message (each sample), including $72$ RSSI values, RX Time, SF, HDOP, Latitude, and Longitude.
+Three Low Power Wide Area Network (LPWAN) datasets, namely "Sigfox_dataset_antrwerp," "Sigfox_dataset_rural," and "lorawan_dataset_antwerp," were recorded from 16 November 2017 to 5 February 2018. In this study, since we focused on outdoor positioning in the LoRa Network, we only used the "lorawan_dataset_antwerp" dataset.
+
+The data set, which contains around $130,000$ in LoRaWAN messages, was collected in Antwerp, Belgium. Each message (each sample) contains $77$ features, including $72$ RSSI values, RX Time, SF, HDOP, Latitude, and Longitude.
+
+# Machine Learning Based Localization in LoRa
+We present the benchmark ML models that we propose for the localization of outdoor devices in RSSI-based LoRaWAN networks: k-NN, CNN, SVR, ANN, and XGBoost.
 
 # Repository Description
-* *Data_Description*
+* *Data_Description.ipynb* file contains the data preprocessing stage without the normalization script.
